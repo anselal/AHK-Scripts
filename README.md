@@ -1,8 +1,8 @@
 # AHK-Scripts
 
-![Screenshot](demo-images/Drozd_monitor_ext1.png)
-![Screenshot](demo-images/Drozd_Net_monitor.png)
-![Screenshot](demo-images/Traditional_clock_gadget.png)
+![CPU monitor](demo-images/Drozd_monitor_ext1.png)
+![Net  monitor](demo-images/Drozd_Net_monitor.png)
+![Clock](demo-images/Traditional_clock_gadget.png)
 
 [Drozdman. AHK forum](https://www.autohotkey.com/boards/memberlist.php?mode=viewprofile&u=65650)
 
