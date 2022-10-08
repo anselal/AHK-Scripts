@@ -1,8 +1,8 @@
 # AHK-Scripts
 
 ![Screenshot](demo-images/Drozd_monitor_ext1.png)
-![Screenshot](demo-images/Drozd_Net_monitor st.png)
-![Screenshot](demo-images/Traditional clock gadget bl.png)
+![Screenshot](demo-images/Drozd_Net_monitor.png)
+![Screenshot](demo-images/Traditional_clock_gadget.png)
 
 https://www.autohotkey.com/boards/memberlist.php?mode=viewprofile&u=65650
 
