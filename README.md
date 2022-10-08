@@ -4,15 +4,15 @@
 ![Screenshot](demo-images/Drozd_Net_monitor.png)
 ![Screenshot](demo-images/Traditional_clock_gadget.png)
 
-https://www.autohotkey.com/boards/memberlist.php?mode=viewprofile&u=65650
+[Drozdman. AHK forum](https://www.autohotkey.com/boards/memberlist.php?mode=viewprofile&u=65650)
 
-[AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=53021)
+[Quick Notes. RichEdit version. AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=53021)
 
-[AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=48268)
+[Traditional clock gadget with timer, periodic alarm (Gdip). AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=48268)
 
-[AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=45628)
+[Network monitor with history graph, total usage. AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=45628)
 
-[AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=45630)
+[CPU monitor with history graph. AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=45630)
 
 
 
