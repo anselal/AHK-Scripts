@@ -4,6 +4,9 @@
 ![Net  monitor](demo-images/Drozd_Net_monitor.png)
 ![Clock](demo-images/Traditional_clock_gadget.png)
 
+![Quick Notes RichEdit](demo-images/Quick_Notes_RichEdit.png)
+![Quick Notes](demo-images/Quick_Notes.png)
+
 [Drozdman. AHK forum](https://www.autohotkey.com/boards/memberlist.php?mode=viewprofile&u=65650)
 
 [Quick Notes. RichEdit version. AHK forum](https://www.autohotkey.com/boards/viewtopic.php?f=6&t=53021)
