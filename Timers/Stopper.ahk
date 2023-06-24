@@ -90,16 +90,16 @@ return
 
 count_time:
 time_count:=time_count+1
-;time_count_show:= (time_count>60) ? Floor(time_count/60) "m " mod(time_count,60) "s" : time_count "s"
+;time_count_show:= (time_count>=60) ? Floor(time_count/60) "m " mod(time_count,60) "s" : time_count "s"
 s_count:=mod(time_count,60)
-m_count:=time_count>3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60) 
+m_count:=time_count>=3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60) 
 h_count:=Floor(time_count/3600)
 
 if(mod(time_count,60)==0){
 	;Gosub, Col_red
 }
 
-time_count_show:= time_count>3600 ? dig(h_count) ":" dig(m_count) ":" dig(s_count) :  dig(m_count) ":" dig(s_count)
+time_count_show:= time_count>=3600 ? dig(h_count) ":" dig(m_count) ":" dig(s_count) :  dig(m_count) ":" dig(s_count)
 GuiControl, , Show_timer , % time_count_show
 ;Menu, Tray,Tip , % "count: " time_count_show "`nstart: " h0 ":" m0 ":" s0
 return
