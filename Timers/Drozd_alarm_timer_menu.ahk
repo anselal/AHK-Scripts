@@ -425,7 +425,7 @@ return
 time_date:
 start_msg_timer+=1 
 msg_timer_h := Floor(start_msg_timer/3600)
-msg_timer_m := time_count>3600 ? Floor(mod(start_msg_timer,3600)/60) : Floor(start_msg_timer/60)
+msg_timer_m := time_count>=3600 ? Floor(mod(start_msg_timer,3600)/60) : Floor(start_msg_timer/60)
 msg_timer_s := Floor(mod(start_msg_timer,60))
 
 msg_timer_l:=msg_timer_h >0 ? dig(msg_timer_h) " : " dig(msg_timer_m) " : " dig(msg_timer_s)  : "`    " dig(msg_timer_m) "  :  " dig(msg_timer_s) 
