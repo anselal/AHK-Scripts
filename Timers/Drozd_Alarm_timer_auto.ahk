@@ -80,7 +80,7 @@ return
 count_time:
 time_count:=time_count-1
 count_timeLeft_h := Floor(time_count/3600)
-count_timeLeft_m := time_count>3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60)
+count_timeLeft_m := time_count>=3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60)
 count_timeLeft_s := Floor(mod(time_count,60))
    
 count_time_left:=count_timeLeft_h >0 ? dig(count_timeLeft_h) ":" dig(count_timeLeft_m) ":" dig(count_timeLeft_s)  : "`    " dig(count_timeLeft_m) ":" dig(count_timeLeft_s) 
