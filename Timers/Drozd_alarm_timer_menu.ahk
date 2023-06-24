@@ -209,7 +209,7 @@ count_time:
 ;ToolTip, % time_count
 time_count:=time_count-1
 count_timeLeft_h := Floor(time_count/3600)
-count_timeLeft_m := time_count>3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60)
+count_timeLeft_m := time_count>=3600 ? Floor(mod(time_count,3600)/60) : Floor(time_count/60)
 count_timeLeft_s := Floor(mod(time_count,60))
    
 ;Menu, Tray,Tip , % count_time_left
@@ -229,9 +229,9 @@ time_compare := Round((A_TickCount - start_time)/1000)
 ;ToolTip, % time_compare_show
 time_compare:=seconds-time_compare
 compare_timeLeft_h := Floor(time_compare/3600)
-compare_timeLeft_m := time_compare>3600 ? Floor(mod(time_compare,3600)/60) : Floor(time_compare/60)
+compare_timeLeft_m := time_compare>=3600 ? Floor(mod(time_compare,3600)/60) : Floor(time_compare/60)
 compare_timeLeft_s := Floor(mod(time_compare,60))
-;time_compare_show:= time_compare>3600 ? dig(h) " : " dig(m) " : " dig(s) :  dig(m) " : " dig(s)
+;time_compare_show:= time_compare>=3600 ? dig(h) " : " dig(m) " : " dig(s) :  dig(m) " : " dig(s)
 time_compare_show:=compare_timeLeft_h >0 ? dig(compare_timeLeft_h) ":" dig(compare_timeLeft_m) ":" dig(compare_timeLeft_s)  : dig(compare_timeLeft_m) ":" dig(compare_timeLeft_s) 
 count_time_left2:=RegExReplace(count_time_left,"\s+:\s+",":") 
 tray_tip:="count:     " count_time_left2 "`n" "compare:    " time_compare_show "`ntime:            " TIME_min "  min" "`nstarted on:  " start_timer
