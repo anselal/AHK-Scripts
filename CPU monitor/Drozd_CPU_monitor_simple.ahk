@@ -206,7 +206,7 @@ DllCall( "AnimateWindow", "Int", GuiHwnd, "Int", 200, "Int", 0x00000004 )
 OnMessage(0x201, "WM_LBUTTONDOWN") ; movable borderless window   
 OnMessage(0x404, "AHK_NOTIFYICON") ;click tray icon to show
 
-GoSub, onTop
+; GoSub, onTop
 GoSub, time_on
 GoSub, time_date
 GoSub, CPU_use
